@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sam43.notificaitontest.MainActivity">
+    <Button
+        android:id="@+id/notificationOne"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="start notification one"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/notificationTwo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="start notification two"
+        tools:ignore="HardcodedText"/>
+
+</RelativeLayout>
